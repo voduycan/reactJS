@@ -1,0 +1,37 @@
+@color: #333;
+
+.test{
+    background-color: @color;
+    font-size: 20px;
+    color: red;
+}
+.head{
+    width: 300px;
+    height: 100px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    .test;  
+}
+.rounded(@radius:5px){
+    
+    border-radius: @radius;
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+}
+.head{
+    .rounded;
+}
+
+.main{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    .rounded;
+
+}
+
+.footer{
+    background: blue;
+    color: yellow;
+
+}
