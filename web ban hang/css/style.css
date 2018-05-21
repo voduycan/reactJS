@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(234, 230, 230);
+}
+#top{
+    background: white;
+    padding: 10px 0;
+}
+#search{
+    padding: 0;
+    border: 2px solid orange;
+    border-radius: 4px;
+}
+#search-left{
+    border: none;
+}
+#search-input{
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid lightgrey;
+}
+.search-right{
+    background: orange;
+    border: 0;
+    border-radius: 0;
+}
+.search-right button {
+    margin-right: -1px;
+    color: white;
+    background: orange;
+    border: 0;
+}
+#search-left #my-caret{
+    margin-left: 20px;
+}
+.user-icon {
+    font-size: 25px;
+    line-height: 40px;
+}
+#main{
+    margin-top: 20px;
+}
+#main #menu{
+    padding: 0;
+    padding-left: 10px;
+}
+
+#menu .item-header{
+    background: orange;
+    color: white;
+}
+#menu  ul li:hover {
+    background: rgb(234, 230, 230);
+    color: orange;
+}
+#content-bottom a img{
+    width: 100%;
+    margin-top: 20px;
+}
+#main #menu ul li i{
+    margin-right: 10px;
+}
+#content{
+    width: 730px;
+}
